@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/button_settings"
+        android:title="Settings"
+        yourapp:showAsAction="always|collapseActionView"
+        android:layout_centerInParent="true"/>
+</menu>
